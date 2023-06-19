@@ -14,10 +14,15 @@ header {
   align-items: center;
 }
 
-section {
+.container-blue {
   min-height: 300px;
   background-color: blue;
   min-width: 70%;
+}
+.container-pink {
+  min-height: 300px;
+  background-color: pink;
+  min-width: 30%;
 }
 
 nav {
@@ -28,6 +33,14 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.first-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 50px;
 }
 
 footer {
